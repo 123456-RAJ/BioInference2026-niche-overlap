@@ -1,40 +1,40 @@
-# BioInference 2026 Niche Overlap Analysis
+# BioInference 2026 Niche overlap analysis
 
 ## Overview
 
-This repository contains the R code used for environmental niche-overlap analysis presented at BioInference 2026.
+This repository contains the R code used for niche analysis presented at BioInference 2026 at The University of St Andrews.
 
-The workflow compares environmental niche overlap among Mesofauna, Macrofauna, and Earthworms using environmental principal component analysis (PCA) and Schoener's D niche-overlap metrics implemented through the `ecospat` package.
+The workflow compares environmental niche overlap among Mesofauna, Macrofauna, and Earthworms using environmental data and Schoener's D niche - overlap metrics implemented through the `ecospat` package.
 
-The analysis quantifies overlap in environmental niche space and provides visual and quantitative comparisons among the three soil-fauna groups.
+The analysis measures overlap in environmental niche space and provides visual and quantitative comparisons among the different soil - fauna groups.
 
 ## Data Availability
 
-The original research dataset cannot be shared publicly because it forms part of ongoing research intended for peer-reviewed publication.
+The original research dataset cannot be shared publicly because it is part of ongoing research.
 
 To support reproducibility, a synthetic example dataset is included in this repository. The example dataset has the same structure as the original dataset but contains artificially generated values and should not be interpreted biologically.
 
-The synthetic dataset allows users to run the complete workflow from start to finish and reproduce all example outputs included in this repository.
+The synthetic dataset allows users to run the complete workflow from beginning to end and reproduce all example outputs included in this repository.
 
 ## Repository Contents
 
 * `Niche_Analysis_Ecospat.R` – main analysis script.
 * `example_data/` – synthetic dataset used for demonstration and testing.
-* `outputs/` – example outputs generated from the synthetic dataset.
+* `outputs/` – outputs generated from the synthetic dataset.
 
   * `schoeners_D.csv`
-  * `niche_overlap_summary.png`
+  * `niche_overlap_dummy_data.png`
   * `sessionInfo.txt`
 * `LICENSE` – MIT License.
 
 ## Software Requirements
 
-The analysis was developed in R and relies on the following packages:
+The following packages are necessary for the analysis, which was created in R:
 
 | Package | Purpose in the analysis                                                           |
 | ------- | --------------------------------------------------------------------------------- |
-| readxl  | Reads the Excel workbook containing environmental and fauna datasets              |
-| dplyr   | Data manipulation, filtering, joining, and summarising tables                     |
+| readxl  | Reads the Excel file containing environmental and fauna datasets              |
+| dplyr   | Data manipulation                     |
 | tidyr   | Data reshaping and handling missing values                                        |
 | stringr | Cleaning and standardising text fields and column names                           |
 | janitor | Cleaning and standardising imported column names                                  |

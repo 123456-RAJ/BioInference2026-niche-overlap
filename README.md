@@ -1,4 +1,4 @@
-# BioInference 2026 Niche overlap analysis
+# Repository developed for the BioInference 2026 Reproducibility Award.
 
 ## Overview
 
@@ -115,5 +115,9 @@ This project is released under the MIT License.
 ## Author
 
 Rajneesh Kumar
+
+## Acknowledgements
+
+This work was conducted under the supervision of Dr. Marianna Cerasuolo at the University of Sussex, United Kingdom.
 
 

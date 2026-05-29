@@ -4,7 +4,9 @@
 
 This repository contains the R code used for niche analysis presented at BioInference 2026 at The University of St Andrews.
 
-My research uses mathematical and statistical modelling to shed light on the relationship between soil biodiversity, its geographical distribution, its variation among diverse land uses, and how climate change affects it. The workflow compares environmental niche overlap among Mesofauna, Macrofauna, and Earthworms using environmental data and Schoener's D niche - overlap metrics implemented through the `ecospat` package.
+My research uses mathematical and statistical modelling to shed light on the relationship between soil biodiversity, its geographical distribution, its variation among diverse land uses, and how climate change affects it. 
+
+The workflow compares environmental niche overlap among Mesofauna, Macrofauna, and Earthworms using environmental data and Schoener's D niche - overlap metrics implemented through the `ecospat` package.
 
 The analysis measures overlap in environmental niche space and provides visual and quantitative comparisons among the different soil - fauna groups.
 

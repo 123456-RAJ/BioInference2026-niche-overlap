@@ -69,31 +69,31 @@ source("Niche_Analysis_Ecospat.R")
 
 When prompted, select:
 
-`example_data/example_data_bioinference_v2.xlsx`
+`example_data/example_data_bioinference.xlsx`
 
-### Step 5: Review Outputs
+### Step 5: Outputs
 
-The script will automatically generate output files and figures.
+The script will generate output files and figures.
 
 ## Analysis Workflow
 
-The workflow follows the steps below:
+The workflow follows the following steps :
 
-1. Import environmental and fauna datasets from Excel.
+1. Import environmental and fauna datasets from Excel file.
 2. Identify sampling sites common to all datasets.
-3. Convert fauna abundance data to presence–absence information.
+3. Convert fauna abundance data to presence – absence.
 4. Perform Principal Component Analysis (PCA) on environmental variables.
 5. Construct environmental niche grids using the ecospat framework.
-6. Calculate pairwise Schoener's D niche-overlap values.
+6. Calculate pairwise Schoener's D niche - overlap values.
 7. Generate niche-overlap visualisations.
-8. Export summary tables and figures.
+8. Obtain summary tables and figures.
 
 ## Outputs
 
 The workflow produces the following outputs:
 
-* `schoeners_D.csv` – summary table containing pairwise Schoener's D niche-overlap values.
-* `niche_overlap_summary.png` – combined figure showing environmental niches and pairwise niche overlaps.
+* `schoeners_D.csv` – summary table containing pairwise Schoener's D niche - overlap values.
+* `niche_overlap_dummy_data.png` – figure showing environmental niches and pairwise niche overlaps.
 * `sessionInfo.txt` – information about the R session, including R version, operating system, and package versions used during the analysis.
 
 Example outputs generated using the synthetic dataset are included in the `outputs` folder.
@@ -102,9 +102,8 @@ Example outputs generated using the synthetic dataset are included in the `outpu
 
 This repository was prepared to support reproducible research and software transparency.
 
-The included synthetic dataset allows users to execute the full workflow without access to the original research dataset.
+The included synthetic dataset allows users to execute the full workflow without access to the original dataset.
 
-The file `sessionInfo.txt` records the software environment used to generate the example outputs and provides information on package versions and platform details.
 
 ## License
 
@@ -114,4 +113,4 @@ This project is released under the MIT License.
 
 Rajneesh Kumar
 
-BioInference 2026 Presentation Repository
+

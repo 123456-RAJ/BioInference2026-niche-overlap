@@ -88,6 +88,31 @@ The workflow follows the following steps :
 7. Generate niche-overlap visualisations.
 8. Obtain summary tables and figures.
 
+   ### Schoener's D Niche Overlap
+
+Pairwise niche overlap between fauna groups is quantified using Schoener's D, a widely used measure of niche similarity.
+
+[
+D = 1 - \frac{1}{2}\sum_i |p_{1i} - p_{2i}|
+]
+
+where:
+
+* (p_{1i}) is the probability (or density) of taxon 1 in environmental cell (i),
+* (p_{2i}) is the probability (or density) of taxon 2 in environmental cell (i).
+
+The value of Schoener's D ranges from:
+
+* **0** = no niche overlap,
+* **1** = complete niche overlap.
+
+In this analysis, environmental niches are estimated using the `ecospat` package, and pairwise Schoener's D values are calculated for:
+
+* Mesofauna vs Macrofauna
+* Mesofauna vs Earthworms
+* Macrofauna vs Earthworms
+
+
 ## Outputs
 
 The workflow produces the following outputs:

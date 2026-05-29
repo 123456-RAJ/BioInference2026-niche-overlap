@@ -1,2 +1,117 @@
-# BioInference2026-niche-overlap
-R workflow for environmental niche analysis presented at BioInference 2026.
+# BioInference 2026 Niche Overlap Analysis
+
+## Overview
+
+This repository contains the R code used for environmental niche-overlap analysis presented at BioInference 2026.
+
+The workflow compares environmental niche overlap among Mesofauna, Macrofauna, and Earthworms using environmental principal component analysis (PCA) and Schoener's D niche-overlap metrics implemented through the `ecospat` package.
+
+The analysis quantifies overlap in environmental niche space and provides visual and quantitative comparisons among the three soil-fauna groups.
+
+## Data Availability
+
+The original research dataset cannot be shared publicly because it forms part of ongoing research intended for peer-reviewed publication.
+
+To support reproducibility, a synthetic example dataset is included in this repository. The example dataset has the same structure as the original dataset but contains artificially generated values and should not be interpreted biologically.
+
+The synthetic dataset allows users to run the complete workflow from start to finish and reproduce all example outputs included in this repository.
+
+## Repository Contents
+
+* `Niche_Analysis_Ecospat.R` – main analysis script.
+* `example_data/` – synthetic dataset used for demonstration and testing.
+* `outputs/` – example outputs generated from the synthetic dataset.
+
+  * `schoeners_D.csv`
+  * `niche_overlap_summary.png`
+  * `sessionInfo.txt`
+* `LICENSE` – MIT License.
+
+## Software Requirements
+
+The analysis was developed in R and relies on the following packages:
+
+| Package | Purpose in the analysis                                                           |
+| ------- | --------------------------------------------------------------------------------- |
+| readxl  | Reads the Excel workbook containing environmental and fauna datasets              |
+| dplyr   | Data manipulation, filtering, joining, and summarising tables                     |
+| tidyr   | Data reshaping and handling missing values                                        |
+| stringr | Cleaning and standardising text fields and column names                           |
+| janitor | Cleaning and standardising imported column names                                  |
+| ggplot2 | General plotting and data visualisation                                           |
+| ade4    | Principal Component Analysis (PCA) of environmental variables                     |
+| ecospat | Construction of niche grids and calculation of Schoener's D niche-overlap metrics |
+| readr   | Robust numeric parsing and export of output tables                                |
+
+Missing packages are installed automatically when the script is run.
+
+## How to Run the Analysis
+
+### Step 1: Download the Repository
+
+Download or clone this repository to your local computer.
+
+### Step 2: Open R or RStudio
+
+Open the script:
+
+`Niche_Analysis_Ecospat.R`
+
+### Step 3: Run the Analysis
+
+Execute:
+
+```r
+source("Niche_Analysis_Ecospat.R")
+```
+
+### Step 4: Select the Example Dataset
+
+When prompted, select:
+
+`example_data/example_data_bioinference_v2.xlsx`
+
+### Step 5: Review Outputs
+
+The script will automatically generate output files and figures.
+
+## Analysis Workflow
+
+The workflow follows the steps below:
+
+1. Import environmental and fauna datasets from Excel.
+2. Identify sampling sites common to all datasets.
+3. Convert fauna abundance data to presence–absence information.
+4. Perform Principal Component Analysis (PCA) on environmental variables.
+5. Construct environmental niche grids using the ecospat framework.
+6. Calculate pairwise Schoener's D niche-overlap values.
+7. Generate niche-overlap visualisations.
+8. Export summary tables and figures.
+
+## Outputs
+
+The workflow produces the following outputs:
+
+* `schoeners_D.csv` – summary table containing pairwise Schoener's D niche-overlap values.
+* `niche_overlap_summary.png` – combined figure showing environmental niches and pairwise niche overlaps.
+* `sessionInfo.txt` – information about the R session, including R version, operating system, and package versions used during the analysis.
+
+Example outputs generated using the synthetic dataset are included in the `outputs` folder.
+
+## Reproducibility Notes
+
+This repository was prepared to support reproducible research and software transparency.
+
+The included synthetic dataset allows users to execute the full workflow without access to the original research dataset.
+
+The file `sessionInfo.txt` records the software environment used to generate the example outputs and provides information on package versions and platform details.
+
+## License
+
+This project is released under the MIT License.
+
+## Author
+
+Rajneesh Kumar
+
+BioInference 2026 Presentation Repository

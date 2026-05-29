@@ -38,7 +38,7 @@ The following packages are necessary for the analysis, which was created in R:
 | tidyr   | Data reshaping and handling missing values                                        |
 | stringr | Cleaning and standardising text fields and column names                           |
 | janitor | Cleaning and standardising imported column names                                  |
-| ggplot2 | General plotting and data visualisation                                           |
+| ggplot2 | Plotting and data visualisation                                           |
 | ade4    | Principal Component Analysis (PCA) of environmental variables                     |
 | ecospat | Construction of niche grids and calculation of Schoener's D niche-overlap metrics |
 | readr   | Robust numeric parsing and export of output tables                                |

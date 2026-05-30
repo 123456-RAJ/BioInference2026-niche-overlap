@@ -18,16 +18,6 @@ An ecological niche describes where a species lives and the environmental condit
 
 *Image source: BBC Bitesize. https://www.bbc.co.uk/bitesize/guides/z2vjrwx/revision/4*
 
-## Schoener's D Niche Overlap
-
-Niche overlap between fauna groups was calculated using Schoener's D.
-
-![Schoener's D formula](images/schoeners_D_mathematical_formula.png)
-
-The value of Schoener's D ranges from 0 to 1:
-
-- D = 0 indicates no niche overlap.
-- D = 1 indicates complete niche overlap.
 
 ## Data Availability
 

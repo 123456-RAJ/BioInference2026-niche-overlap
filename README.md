@@ -145,7 +145,7 @@ Example outputs generated using the synthetic dataset are included in the `outpu
 </p>
 
 <p align="center">
-<b>Figure 3.</b> Example niche-overlap analysis generated using the synthetic dataset.
+<b>Figure 2.</b> Example niche-overlap analysis generated using the synthetic dataset.
 </p>
 
 ## Reproducibility Notes

@@ -10,6 +10,14 @@ The workflow compares environmental niche overlap among Mesofauna, Macrofauna, a
 
 The analysis measures overlap in environmental niche space and provides visual and quantitative comparisons among the different soil - fauna groups.
 
+## What is an Ecological Niche?
+
+An ecological niche describes the environmental conditions and resources that allow a species or group of organisms to survive, grow, and reproduce.
+
+![Ecological niche](images/ecological_niche.png)
+
+*Image source: BBC Bitesize. https://www.bbc.co.uk/bitesize/guides/z2vjrwx/revision/4*
+
 ## Data Availability
 
 The original research dataset cannot be shared publicly because it is part of ongoing research.

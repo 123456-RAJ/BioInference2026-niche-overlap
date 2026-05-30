@@ -14,10 +14,17 @@ The analysis measures overlap in environmental niche space and provides visual a
 
 An ecological niche describes where a species lives and the environmental conditions it can tolerate​
 
-![Ecological niche](images/ecological_niche.png)
-**Figure 1.** Illustration of ecological niches
+<p align="center">
+  <img src="images/ecological_niche.png" width="500">
+</p>
 
-*Image source: BBC Bitesize. https://www.bbc.co.uk/bitesize/guides/z2vjrwx/revision/4*
+<p align="center">
+<b>Figure 1.</b> Illustration of ecological niches.
+</p>
+
+<p align="center">
+<i>Image source: BBC Bitesize. https://www.bbc.co.uk/bitesize/guides/z2vjrwx/revision/4</i>
+</p>
 
 ## Schoener's D Niche Overlap
 

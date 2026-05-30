@@ -20,14 +20,9 @@ An ecological niche describes where a species lives and the environmental condit
 
 ## Schoener's D Niche Overlap
 
-Pairwise niche overlap between fauna groups was quantified using Schoener's D.
+Niche overlap between fauna groups was calculated using Schoener's D.
 
 ![Schoener's D formula](images/schoeners_D_formula.png)
-
-where:
-
-- p₁ᵢ is the probability or density of taxon 1 in environmental cell i.
-- p₂ᵢ is the probability or density of taxon 2 in environmental cell i.
 
 The value of Schoener's D ranges from 0 to 1:
 

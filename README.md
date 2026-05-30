@@ -110,6 +110,10 @@ When prompted, select:
 
 The script will generate output files and figures.
 
+## Expected Runtime
+
+Using the synthetic dataset, the analysis completes within a few seconds on a standard laptop.
+
 ## Analysis Workflow
 
 The workflow follows the following steps :

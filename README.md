@@ -12,11 +12,27 @@ The analysis measures overlap in environmental niche space and provides visual a
 
 ## What is an Ecological Niche?
 
-An ecological niche describes the environmental conditions and resources that allow a species or group of organisms to survive, grow, and reproduce.
+An ecological niche describes where a species lives and the environmental conditions it can tolerate​
 
 ![Ecological niche](images/ecological_niche.png)
 
 *Image source: BBC Bitesize. https://www.bbc.co.uk/bitesize/guides/z2vjrwx/revision/4*
+
+## Schoener's D Niche Overlap
+
+Pairwise niche overlap between fauna groups was quantified using Schoener's D.
+
+![Schoener's D formula](images/schoeners_D_formula.png)
+
+where:
+
+- p₁ᵢ is the probability or density of taxon 1 in environmental cell i.
+- p₂ᵢ is the probability or density of taxon 2 in environmental cell i.
+
+The value of Schoener's D ranges from 0 to 1:
+
+- D = 0 indicates no niche overlap.
+- D = 1 indicates complete niche overlap.
 
 ## Data Availability
 

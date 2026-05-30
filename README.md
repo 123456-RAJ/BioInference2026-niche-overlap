@@ -138,6 +138,16 @@ The workflow produces the following outputs:
 
 Example outputs generated using the synthetic dataset are included in the `outputs` folder.
 
+## Example Output
+
+<p align="center">
+  <img src="outputs/niche_overlap_dummy_data.png" width="800">
+</p>
+
+<p align="center">
+<b>Figure 3.</b> Example niche-overlap analysis generated using the synthetic dataset.
+</p>
+
 ## Reproducibility Notes
 
 This repository was prepared to support reproducible research and software transparency.

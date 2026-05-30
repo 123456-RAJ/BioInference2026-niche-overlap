@@ -22,7 +22,7 @@ An ecological niche describes where a species lives and the environmental condit
 
 Niche overlap between fauna groups was calculated using Schoener's D.
 
-![Schoener's D formula](images/schoeners_D_mathematical_formula. png)
+![Schoener's D formula](images/schoeners_D_formula.png)
 
 The value of Schoener's D ranges from 0 to 1:
 

@@ -141,7 +141,7 @@ Example outputs generated using the synthetic dataset are included in the `outpu
 ## Example Output
 
 <p align="center">
-  <img src="outputs/niche_overlap_dummy_data.png" width="800">
+  <img src="outputs/Niche_Overlap_dummy_data.png" width="800">
 </p>
 
 <p align="center">

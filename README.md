@@ -28,7 +28,7 @@ An ecological niche describes where a species lives and the environmental condit
 
 ## Schoener's D Niche Overlap
 
-Niche overlap between fauna groups was calculated using Schoener's D. We can calculate it by using the following formula:
+Niche overlap between fauna groups was calculated using Schoener's D. The metric is calculated using the following formula:
 
 ![Schoener's D formula](images/schoeners_D_formula.png)
 

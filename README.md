@@ -169,13 +169,12 @@ This work was conducted under the supervision of Dr. Marianna Cerasuolo at the U
 
 ## Contact
 
-For questions regarding the analysis, or repository, please contact:
+For questions regarding the analysis or repository, please contact:
 
-**Rajneesh Kumar**
-Research Assistant
-Department of Mathematics
-University of Sussex
-Email: [rk516@sussex.ac.uk](mailto:rk516@sussex.ac.uk)
-
+**Rajneesh Kumar**  
+Research Assistant  
+Department of Mathematics  
+University of Sussex  
+Email: rk516@sussex.ac.uk
 
 
